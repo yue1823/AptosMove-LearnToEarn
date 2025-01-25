@@ -90,7 +90,7 @@
    - 使用 `aptos move publish` 可以部署代码
    - 将在部署代码前替换下方的 <在 Build3 领取任务的钱包地址> 
    - 将部署代码后的 txn hash 保存到当前代码中 , 替换 <TXN Hash>
-   - 
+
    ```
 
    module hello_world::hello_world {
