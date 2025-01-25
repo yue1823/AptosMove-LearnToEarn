@@ -70,21 +70,20 @@
 
    ```
    module hello_world::hello_world {
-
        use std::string::{String, utf8};
-       use aptos_framework::event;
    
-       #[event]
-       struct HelloWorldEvent {
+   
+       struct HelloWorld has key {
            message: String
        }
    
-       fun init_module() {
-           event::emit(HelloWorldEvent{
-               message: utf8(b"Hello, <Your Github ID>!")
-           })
+       fun init_module(sender: &signer) {
+           move_to(sender, HelloWorld{
+               message:  utf8(b"Hello, <Your Github ID>!")
+           });
        }
    }
+
    ```
 6. **编译并publish 合约**
    - 可以先使用 `aptos init` 创建一个私钥账户，并根据提示领取测试币
@@ -93,22 +92,21 @@
    - 将部署代码后的 txn hash 保存到当前代码中 , 替换 <TXN Hash>
    - 
    ```
-   module hello_world::hello_world {
 
+   module hello_world::hello_world {
        use std::string::{String, utf8};
-       use aptos_framework::event;
    
-       #[event]
-       struct HelloWorldEvent {
+   
+       struct HelloWorld has key {
            message: String
        }
 
        // <在 Build3 领取任务的钱包地址>
        // https://explorer.aptoslabs.com/txn/<TXN Hash>?network=testnet
-       fun init_module() {
-           event::emit(HelloWorldEvent{
-               message: utf8(b"Hello, <Your Github ID>!")
-           })
+       fun init_module(sender: &signer) {
+           move_to(sender, HelloWorld{
+               message:  utf8(b"Hello, <Your Github ID>!")
+           });
        }
    }
    ```
