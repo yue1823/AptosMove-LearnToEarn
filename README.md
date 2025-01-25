@@ -29,6 +29,7 @@
 - 将已经合并的 PR 链接发送至 Build3 的 Proof 等待审核并领取奖励
 
 #### Task 1 操作步骤（Task 1 为示例教学关，后续不会由操作步骤演示）：
+<details>
 1. **在 Build3 中领取任务**
    - 链接 Aptos Petra 钱包 / Google 钱包 领取任务： https://www.buildthree.xyz/bounty/0xd4548fe6626f7fb1c188d233677145ee1018aa2506590535baeeb602c01fabb1
 
@@ -115,3 +116,4 @@
    - 这一步骤可以使用 AI 或者 搜索引擎
 9. **等待合并 - 提交 PR 的链接至 Build3**
    - 当请求合并的 PR 被成功合并后，将合并的 PR 链接发送至
+</details>
