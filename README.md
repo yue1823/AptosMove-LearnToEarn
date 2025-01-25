@@ -22,7 +22,7 @@
 任务奖励： 1 USDT 
 任务详情：
 
-- 完成 hello world 合约，并将 event 输出改为 "hello <Your github id>"
+- 完成 hello world 合约，并将 Message 改为 "hello <Your github id>"
 - 将合约部署 txn 写入合约的注释部分
 - 将合约源码用 pull request 的方式提交至当前仓库（合约应该放入 一个以你的 Github id 作为名字的文件夹）
 - 等待 PR 审核，完成修改
