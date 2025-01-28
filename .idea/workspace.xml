@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00a0d1f-bac3-48f5-8247-5b58288212af" name="更改" comment="" />
+    <list default="true" id="a00a0d1f-bac3-48f5-8247-5b58288212af" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/yue1823/task2/sources/coin.move" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +23,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dylan12386"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FaintlightLabs/AptosMove-LearnToEarn.git",
+    "accountId": "7b0ec563-4018-4236-b52f-a92c5e8ae598"
+  }
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="su3bf0li" />
+  </component>
+  <component name="MoveProjectSettingsService_1">
+    <option name="localAptosPath" value="/opt/homebrew/bin/aptos" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -109,6 +127,7 @@
       <workItem from="1737788248328" duration="275000" />
       <workItem from="1737790850973" duration="661000" />
       <workItem from="1738059374558" duration="26000" />
+      <workItem from="1738059405247" duration="298000" />
     </task>
     <servers />
   </component>
